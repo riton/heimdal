@@ -620,7 +620,6 @@ pa_enc_ts_validate(kdc_request_t r, const PA_DATA *pa)
 					 HDB_AUTH_WRONG_PASSWORD);
 
 	ret = KRB5KDC_ERR_PREAUTH_FAILED;
-
 	goto out;
     }
     free_EncryptedData(&enc_data);
